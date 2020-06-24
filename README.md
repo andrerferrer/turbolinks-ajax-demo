@@ -14,7 +14,7 @@ gem 'turbolinks'
 Remember to `bundle install`
 
 ### 2. Require turbolinks in your JS
-In your [`application.js`]()
+In your [`application.js`](https://github.com/andrerferrer/turbolinks-ajax-demo/blob/master/app/javascript/packs/application.js)
 ```js
 require("turbolinks").start()
 
@@ -26,7 +26,7 @@ document.addEventListener('turbolinks:load', () => {
 ```
 
 ### 3. Add `remote: true`
-In the [view]()
+In the [view](https://github.com/andrerferrer/turbolinks-ajax-demo/blob/master/app/views/restaurants/index.html.erb)
 
 ```erb
 <%= link_to '❌', restaurant, method: :delete, remote: true, data: { confirm: "Are you sure?" } %>
