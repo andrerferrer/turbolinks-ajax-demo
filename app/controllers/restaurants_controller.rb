@@ -20,6 +20,7 @@ class RestaurantsController < ApplicationController
   def destroy
     set_restaurant
     @restaurant.destroy
+    redirect_to root_path
   end
 
   private
