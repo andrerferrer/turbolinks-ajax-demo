@@ -33,8 +33,12 @@ In the [view](https://github.com/andrerferrer/turbolinks-ajax-demo/blob/master/a
 ```
 
 ### 4. Troubleshooting
-If nothing happens, remember to `redirect_to` something in your controller
+- If nothing happens, remember to `redirect_to` something in your controller
+- For Debugging
 
+    add the gem
+    
+    `gem 'turbolinks_render'`
 
 And we're good to go 🤓
 Good Luck and Have Fun
